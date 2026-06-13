@@ -1,4 +1,3 @@
-```python
 import streamlit as st
 import requests
 import pandas as pd
@@ -195,4 +194,3 @@ if search_btn and data["status"] == "ok":
         st.bar_chart(
             source_counts.set_index("Source")
         )
-```
